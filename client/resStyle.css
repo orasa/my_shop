@@ -1,5 +1,14 @@
 h1 {
-  color: #ff0000;
+  color: #0000ff;
+}
+h3 {
+  color: black;
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+}
+h5 {
+  color: orange;
 }
 div.gallery {
   border: 1px solid #ccc;
@@ -65,7 +74,8 @@ are included in the width and height:*/
 }
 #header {
   color: blue;
-  font-size:  20px;
+  font-size:  30px;
+  text-align: center;
 }
 div.name {
   font-family: sans-serif;
