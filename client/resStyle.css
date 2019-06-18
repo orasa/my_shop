@@ -1,0 +1,104 @@
+h1 {
+  color: #ff0000;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+
+ /* div.desc {
+  position: left;
+  padding: 1px;
+
+} */
+
+/* ul.style {
+  list-style-type: none;
+  position: left;
+  list-style-position: outside;
+  text-align: left;
+} */
+
+/* p {
+  color: blue;
+  padding: 1px;
+} */
+
+/* box-sizing: border-box; on an element padding and border
+are included in the width and height:*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* If image size > than 700px it will display 4 images/side by side */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  /* width: 16.66666%; */
+}
+
+/* if screen size < 700px it will display 2 picture side by side */
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+/* if screesn size < than 500px it will stack on top of each other vertically(100%)  */
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+#header {
+  color: blue;
+  font-size:  20px;
+}
+div.name {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px;
+}
+div.price {
+
+  font-family: sans-serif;
+  color: blue;
+  padding: 3px;
+}
+div.rating {
+  font-size: 15px;
+  color: black;
+  display: inline-block;
+  padding: 3px;
+}
+div.star {
+  color: black;
+  display: inline;
+  text-align: right;
+}
+
+/* div.list > ul{
+  display: inline;
+  margin: 5px;
+  list-style-type: none;
+} */
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
