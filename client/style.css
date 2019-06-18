@@ -1,0 +1,26 @@
+h1 {
+  color: white;
+  margin: 30;
+  padding: 15px;
+  background: #050530;
+  border: 2px black dashed;
+}
+h4 {
+  color: red;
+
+}
+
+  p {
+  color: blue;
+  font-size: 20px;
+}
+
+div .product_list {
+  background-color: #ff6650;
+}
+
+img {
+  width: 150px;
+  border: 1px grey;
+  padding: 6px;
+}
